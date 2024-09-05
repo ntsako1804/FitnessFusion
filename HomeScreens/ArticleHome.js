@@ -6,7 +6,7 @@ const ArticleHome = ({ navigation }) => {
     const [articles, setArticles] = useState([]);
     const [filteredArticles, setFilteredArticles] = useState([]);
     const [loading, setLoading] = useState(true);
-    const [searchQuery, setSearchQuery] = useState('');
+    const [searchQuery, setSearchQuery] = useState('Fitness');
 
     useEffect(() => {
         const getArticles = async () => {

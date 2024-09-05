@@ -1,5 +1,8 @@
 // apiService.js
-const API_KEY = 'fced76fc98msh714ee8e3d9dc629p135665jsnfe18451cce99';
+//const API_KEY = 'fced76fc98msh714ee8e3d9dc629p135665jsnfe18451cce99';
+const API_KEY = 'e4a7a9dd91msh817f0c289997533p17fda4jsn8abb05d2506e';
+//const API_KEY = 'e4a7a9dd91msh817f0c289997533p17fda4jsn8abb05d2506e';
+
 const API_HOST = 'news-api14.p.rapidapi.com';
 
 // Fetch articles with optional search query
