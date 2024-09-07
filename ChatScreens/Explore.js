@@ -91,7 +91,7 @@ const ExploreScreen = ({ navigation, route }) => {
       <SafeAreaView style={{ flex: 0, backgroundColor: '#FFFFFF' }} />
       <View style={{ backgroundColor: '#E5EAFD', flex: 1, alignItems: 'center' }}>
         {/* <Image source={require('../assets/Explore_hero.jpg')} style={{ width: imageWidth, height: 270, marginBottom: 15, marginTop: 0 }} /> */}
-        <Text style={{ marginVertical: 20, fontWeight: '800' }}>SWIPE to find who is your FRIEND</Text>
+        <Text style={{ marginVertical: 20, fontWeight: '800' }}>SWIPE send or accept friend request</Text>
 
         <View style={styles.container}>
           <SwipeListView
